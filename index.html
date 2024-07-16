@@ -10,6 +10,30 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <style amp-boilerplate>
+        @-webkit-keyframes blackWhite {
+            0% {
+                background-color: #25d366;
+            }
+
+            50% {
+                background-color: orangered;
+            }
+
+            51% {
+                background-color: darkorange;
+            }
+
+            100% {
+                background-color: darkcyan;
+            }
+        }
+
+        #blinkDiv {
+            background-color: black;
+            -webkit-animation-name: blackWhite;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-duration: 2s;
+        }
         body {
             -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
             -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -7629,19 +7653,21 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>BEST KARNATAKA TOUR</a>
+                                                            <a>ELEGANCE OF KARNATAKA</a>
                                                         </h2>
                                                     </div>
                                                     <!-- User name End from here -->
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>2</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">2</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>3</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">3</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -7663,7 +7689,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasiActiveInclusion')">
+                                                        <li>
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -7672,7 +7698,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasiActiveItinery')">
+                                                        <li>
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -7699,7 +7725,7 @@
                                 <div class="col-sm-3 trip_schedule srp-pkgbox tc_srp_calculation_area package_cost" style="padding: 10px 50px 50px 50px;">
                                     <a style="height: 65px; width: 150px; margin: 1px;" id="blinkDiv" target=”_blank” href="https://wa.me/918320746114?text=Hello I need KarnatakTour"
                                                 class="wantus_call_btn wantus_tocall_wp col-xs-12">
-                                                <span style="font-size: 16px;">GET FREE QUOTE IN WHATSAPP</span>
+                                                <span style="font-size: 16px;" >GET FREE QUOTE IN WHATSAPP</span>
                                     </a>
                                 </div>
 
@@ -7718,9 +7744,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse and More
+                                            <li>Sightseeing:-Banglore
                                             </li>
                                         </ul>
                                     </div>
@@ -7798,10 +7822,11 @@
                                 <div class="col-md-9 col-sm-9  padding-remove srp-pkgbox tc_srp_li_dateils">
                                     <div class="col-sm-12 padding-remove">
                                         <div class="col-md-4 col-sm-4 location_image">
-                                            <div class="tag"><span class="blinking">Special Offer</span></div>
                                             <amp-img src="css/Image/Package2.webp"
                                                 alt="Karnatak PRAYAGRAJ TOUR" title="Karnatak PRAYAGRAJ TOUR" width="250"
                                                 height="213" layout="responsive"></amp-img>
+                                            <div class="tag"><span class="blinking">Special Offer</span></div>
+
                                         </div>
                                         <div class="all_srp_listing_tc col-sm-8 col-xs-12 trip_schedule">
                                             <div class="col-lg-12 col-md-12 col-sm-12 itinerary_details">
@@ -7810,7 +7835,7 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>HONEYMOON TOUR KARNATAKA
+                                                            <a>KARNATAKA HONEYMOON TOUR
                                                             </a>
                                                         </h2>
                                                     </div>
@@ -7818,12 +7843,14 @@
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>3</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">3</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>4</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">4</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -7859,7 +7886,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasPrygrajInclusionActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -7868,7 +7895,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasPrygrajItineryActive')">
+                                                        <li>
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -7914,9 +7941,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse , Periyar Tiger Reserve, Spice Garden, and More.
+                                            <li>Sightseeing:-Mysore,Coorg
                                             </li>
                                         </ul>
                                     </div>
@@ -7995,11 +8020,12 @@
                                 <div class="col-md-9 col-sm-9  padding-remove srp-pkgbox tc_srp_li_dateils">
                                     <div class="col-sm-12 padding-remove">
                                         <div class="col-md-4 col-sm-4 location_image">
-                                            <div class="tag"><span class="blinking">Special Offer</span></div>
-                                            <amp-img src="css/Image/Package3.webp"
+                                            <amp-img src="css/Image/Package4.webp"
                                                 alt="Karnatak-ayodhiya-prayagraj-chitrakoot"
                                                 title="Karnatak-ayodhiya-prayagraj-chitrakoot"width="250"
                                                 height="213" layout="responsive"></amp-img>
+                                            <div class="tag"><span class="blinking">Special Offer</span></div>
+
                                         </div>
                                         <div class="all_srp_listing_tc col-sm-8 col-xs-12 trip_schedule">
                                             <div class="col-lg-12 col-md-12 col-sm-12 itinerary_details">
@@ -8008,7 +8034,7 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>KARNATAKA TRIP
+                                                            <a>KARNATAKA EXOTIC TOUR
                                                             </a>
                                                         </h2>
                                                     </div>
@@ -8016,12 +8042,14 @@
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>3</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">3</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>4</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">4</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -8057,7 +8085,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasChitraInclusionActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -8066,7 +8094,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasChitraItineryActive')">
+                                                        <li>
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -8112,10 +8140,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse , Periyar Tiger Reserve, Spice Garden,Kollam Beach, Hawab
-                                                Beach and More.
+                                            <li>Sightseeing:-Banglore,Mysore,Manglor
                                             </li>
                                         </ul>
                                     </div>
@@ -8195,10 +8220,11 @@
                                 <div class="col-md-9 col-sm-9  padding-remove srp-pkgbox tc_srp_li_dateils">
                                     <div class="col-sm-12 padding-remove">
                                         <div class="col-md-4 col-sm-4 location_image">
-                                            <div class="tag"><span class="blinking">Special Offer</span></div>
-                                            <amp-img src="css/Image/Package4.webp"
+                                            <amp-img src="css/Image/Package3.webp"
                                                 alt="Karnatak-ayodhiya-lucknow" title="Karnatak-ayodhiya-lucknow"width="250"
                                                 height="213" layout="responsive"></amp-img>
+                                            <div class="tag"><span class="blinking">Special Offer</span></div>
+
                                         </div>
                                         <div class="all_srp_listing_tc col-sm-8 col-xs-12 trip_schedule">
                                             <div class="col-lg-12 col-md-12 col-sm-12 itinerary_details">
@@ -8207,7 +8233,7 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>HEAVENLY KARNATAKA
+                                                            <a>DIVINE MYSORE
                                                             </a>
                                                         </h2>
                                                     </div>
@@ -8215,12 +8241,14 @@
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>4</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">4</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>5</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">5</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -8256,7 +8284,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasLknInclusionActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -8265,7 +8293,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasLknItineryActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -8311,10 +8339,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse , Periyar Tiger Reserve, Spice Garden,Kollam Beach, Hawab
-                                                Beach,Kanyakumari Beach, Vivekananda Rock Museum, and More
+                                            <li>Sightseeing:-Ooty,Mysore,coorg
                                             </li>
                                         </ul>
                                     </div>
@@ -8395,11 +8420,12 @@
                                 <div class="col-md-9 col-sm-9  padding-remove srp-pkgbox tc_srp_li_dateils">
                                     <div class="col-sm-12 padding-remove">
                                         <div class="col-md-4 col-sm-4 location_image">
-                                            <div class="tag"><span class="blinking">Special Offer</span></div>
                                             <amp-img src="css/Image/Package5.webp"
                                                 alt="Karnatak-bodhgaya-kushinagar-lumbini-lucknow"
                                                 title="Karnatak-bodhgaya-kushinagar-lumbini-lucknow"width="250"
                                                 height="213" layout="responsive"></amp-img>
+                                            <div class="tag"><span class="blinking">Special Offer</span></div>
+
                                         </div>
                                         <div class="all_srp_listing_tc col-sm-8 col-xs-12 trip_schedule">
                                             <div class="col-lg-12 col-md-12 col-sm-12 itinerary_details">
@@ -8408,7 +8434,7 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>MAJESTIC TOUR KARNATAKA
+                                                            <a>GLORIOUS KARNATAKA
                                                             </a>
                                                         </h2>
                                                     </div>
@@ -8416,12 +8442,14 @@
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>7</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">7</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>8</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">8</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -8457,7 +8485,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasBodgayaInclusionActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -8466,7 +8494,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasBodgayaItineryActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -8512,11 +8540,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse , Periyar Tiger Reserve, Spice Garden,Kollam Beach, Hawab
-                                                Beach,Kanyakumari Beach, Vivekananda Rock Museum,Rameswaram Temple and
-                                                More
+                                            <li>Sightseeing:-Banglore,Ooty,Mysore,coorg, Kudaikanal
                                             </li>
                                         </ul>
                                     </div>
@@ -8600,11 +8624,12 @@
                                 <div class="col-md-9 col-sm-9  padding-remove srp-pkgbox tc_srp_li_dateils">
                                     <div class="col-sm-12 padding-remove">
                                         <div class="col-md-4 col-sm-4 location_image">
-                                            <div class="tag"><span class="blinking">Special Offer</span></div>
+                                            
                                             <amp-img src="css/Image/Package6.webp"
                                                 alt="Karnatak-bodhgaya-kushinagar-lumbini-lucknow"
                                                 title="Karnatak-bodhgaya-kushinagar-lumbini-lucknow"width="250"
                                                 height="213" layout="responsive"></amp-img>
+                                                <div class="tag"><span class="blinking">Special Offer</span></div>
                                         </div>
                                         <div class="all_srp_listing_tc col-sm-8 col-xs-12 trip_schedule">
                                             <div class="col-lg-12 col-md-12 col-sm-12 itinerary_details">
@@ -8613,7 +8638,7 @@
                                                     <div class="col-lg-9 col-md-9 col-sm-9">
                                                         <!-- <span title="Recommend holidays" class="tc-recommend thumbs_up_icon"></span> -->
                                                         <h2 class="all_packages_name">
-                                                            <a>MAGICAL OOTY
+                                                            <a>ENCHANTED OOTY
                                                             </a>
                                                         </h2>
                                                     </div>
@@ -8621,12 +8646,14 @@
                                                     <!-- Nights & Days Start from here -->
                                                     <div class="col-lg-3 col-md-3 col-sm-3 hdays_count">
                                                         <div>
-                                                            <span>6</span>
-                                                            <span>Nights</span>
+                                                            <span style="font-weight: bold;">6</span>
+                                                            <span><img src="css/Image/night.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                         <div>
-                                                            <span>7</span>
-                                                            <span>Days</span>
+                                                            <span style="font-weight: bold;">7</span>
+                                                            <span><img src="css/Image/sun.png"
+                                                                    style="height: 30px; width: 30px;"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -8662,7 +8689,7 @@
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
 
-                                                        <li onclick="ActiveDiv('VanarasBodgayaInclusionActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_flights">
                                                                     <span></span>
@@ -8671,7 +8698,7 @@
                                                             </a>
                                                             <div class="arrow_box visible-xs"></div>
                                                         </li>
-                                                        <li onclick="ActiveDiv('VanarasBodgayaItineryActive')">
+                                                        <li >
                                                             <a>
                                                                 <span class="tour_inclusive_hotels">
                                                                     <span></span>
@@ -8717,11 +8744,7 @@
 
                                     <div class="active_default_msg">
                                         <ul class="li-Card_Details">
-                                            <li>Eravikulam National Park, Tea Gardens,Attukal Waterfall , Kundala Dam
-                                                Lake , Mattupetty Dam, Rosegarden, Echo Point, Selfie Point, Alleppey
-                                                Boathouse , Periyar Tiger Reserve, Spice Garden,Kollam Beach, Hawab
-                                                Beach,Kanyakumari Beach, Vivekananda Rock Museum,Rameswaram Temple and
-                                                More
+                                            <li>Sightseeing:-Banglore,Ooty,Mysore,Kudaikanal
                                             </li>
                                         </ul>
                                     </div>
@@ -9000,10 +9023,10 @@
         </div>
     </div>
     <a href="https://wa.me/918320746114?text=Hello I need karnatak tour package" class="float" target="_blank">
-        <i class="bi bi-whatsapp my-float"></i>
+        <i class="bi bi-whatsapp my-float" style="font-size: 35px;"></i>
     </a>
     <a href="tel:918320746114" class="float-call" target="_blank">
-        <i class="bi bi-telephone my-float-call"></i>
+        <i class="bi bi-telephone my-float-call" style="font-size: 35px;"></i>
     </a>
     <div class="Copyright-div text-center">
         <a style="color: white;" href="https://darshanrathholidays.com/">@2023 darshanrathholidays.com</a> | Designed &
